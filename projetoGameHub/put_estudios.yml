@@ -1,0 +1,15 @@
+info:
+  name: put_estudios
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: http://localhost:3000/estudios/2
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
