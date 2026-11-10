@@ -14,4 +14,4 @@ router.put("/:id", validarId, jogosController.atualizar );
 
 router.delete("/:id", validarId, jogosController.excluir );
 
-export default router;
+export default router; // teste
